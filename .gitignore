@@ -1,3 +1,9 @@
+*
+!.gitignore
+!**/
+!*.cpp
+
+
 # Prerequisites
 *.d
 
