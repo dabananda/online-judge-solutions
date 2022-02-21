@@ -16,7 +16,7 @@ int main() {
       if ((n / 2) % 2 != 0) {
         cout << "NO" << endl;
       } else {
-        vector<int> even, odd;
+        vector<int> even;
         int evenSum = 0, oddSum = 0, oddArr[n / 2], j = 0;
         bool flag;
         for (int i = 2; i <= n; i += 2) {
