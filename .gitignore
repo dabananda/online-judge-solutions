@@ -2,6 +2,7 @@
 !.gitignore
 !**/
 !*.cpp
+debug.cpp
 
 
 # Prerequisites
