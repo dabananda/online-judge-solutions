@@ -1,7 +1,11 @@
 *
 !.gitignore
 !**/
+!*.c
 !*.cpp
+!*.java
+!*.py
+!*.js
 debug.cpp
 
 
