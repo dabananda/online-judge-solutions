@@ -8,6 +8,10 @@
 !*.js
 debug.cpp
 
+test.cpp
+test.o
+test.exe
+
 
 # Prerequisites
 *.d
