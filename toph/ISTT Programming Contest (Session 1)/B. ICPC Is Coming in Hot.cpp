@@ -5,21 +5,17 @@ using namespace std;
 int main() {
   string s;
   cin >> s;
-  long long int count = 1, max = 0;
-  char c = s[0];
-  sort(s.begin() , s.end());
-  for (long long int i = 0; i < s.length() - 1; i++) {
-    if (s[i] == s[i + 1]) {
-      count++;
-    } else {
-      if (count > max) {
-        max = count;
-        count = 1;
-        c = s[i];
-      }
+  int sf[10] = {};
+  for (int i = 0; i < s.length(); i++) {
+    sf[s[i] - '0']++;
+  }
+  int indexOfMax = sf[0];
+  for (int i = 0; i < 10; i++) {
+    if (sf[i] > sf[indexOfMax]) {
+      indexOfMax = i;
     }
   }
-  cout << c << endl;
+  cout << indexOfMax << endl;
 
   return 0;
 }
