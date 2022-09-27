@@ -11,6 +11,8 @@ debug.cpp
 test.cpp
 test.o
 test.exe
+input.txt
+output.txt
 
 
 # Prerequisites
