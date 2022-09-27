@@ -1,0 +1,28 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face": "Fira Code Retina",
+	"font_size": 13,
+	"tab_size": 2,
+	"spell_check": true,
+	"indent_to_bracket": true,
+	"draw_minimap_border": true,
+	"always_show_minimap_viewport": true,
+	"highlight_line": true,
+	"caret_style": "phase",
+	"match_brackets_angle": true,
+	"ensure_newline_at_eof_on_save": true,
+	"save_on_focus_lost": true,
+	"auto_complete_use_history": true,
+	"theme": "ayu-dark.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
+	"added_words":
+	[
+		"Dabananda",
+		"Mitra",
+	],
+}
