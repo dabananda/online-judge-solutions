@@ -6,8 +6,9 @@
 !*.java
 !*.py
 !*.js
-debug.cpp
+!pre-compile_all_cpp_header_files.txt
 
+debug.cpp
 test.cpp
 test.o
 test.exe

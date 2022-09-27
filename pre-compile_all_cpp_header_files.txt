@@ -1,0 +1,3 @@
+Goto this folder: "C:\MinGW\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits".
+Then press shift + right button of the mouse and select "open powershell window here".
+Then paste the command and press enter "g++ stdc++.h -std=c++17"
