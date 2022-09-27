@@ -1,10 +1,19 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 typedef long long ll;
+typedef vector<int> vi;
+typedef vector<long long> vl;
 
 #define TLE ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 
-using namespace std;
+class Solution {
+public:
+  void process(int t) {
+
+  }
+};
 
 int main() {
   TLE;
@@ -12,11 +21,11 @@ int main() {
   freopen("input.txt", "r", stdin);
   freopen("output.txt", "w", stdout);
 
-  int testCase;
+  Solution s;
+  int testCase, i = 1;
   cin >> testCase;
-
   while (testCase--) {
-  	
+    s.process(i++);
   }
 
   return 0;
