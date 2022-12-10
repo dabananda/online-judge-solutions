@@ -11,6 +11,7 @@
 !sublime_custom_settings_for_programming.json
 !*.sublime-build
 !*.sublime-snippet
+!compile-and-run-cpp-in-cmd.txt
 
 debug.cpp
 test.cpp
