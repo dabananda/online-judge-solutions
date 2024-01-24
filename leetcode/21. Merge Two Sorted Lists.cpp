@@ -1,8 +1,8 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode *newList = new ListNode();
-        ListNode *curr = newList;
+        ListNode *list = new ListNode();
+        ListNode *curr = list;
         vector<int> v;
         while (list1) {
             v.push_back(list1->val);
@@ -17,6 +17,6 @@ public:
             curr->next = new ListNode(v[i]);
             curr = curr->next;
         }
-        return newList->next;  // returning actual head;
+        return list->next;
     }
 };
