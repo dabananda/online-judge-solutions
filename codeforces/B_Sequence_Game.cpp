@@ -3,8 +3,8 @@
 // LinkedIn: https://www.linkedin.com/in/dabanandamitra/
 // GitHub: https://github.com/dabananda
 // Portfolio: https://dmitra.netlify.app/
-// Problem link: 
- 
+// Problem link: https://codeforces.com/problemset/problem/1862/B
+
 #include <bits/stdc++.h>
  
 using namespace std;
