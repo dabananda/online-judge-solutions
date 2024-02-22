@@ -3,9 +3,9 @@
 // LinkedIn: https://www.linkedin.com/in/dabanandamitra/
 // GitHub: https://github.com/dabananda
 // Portfolio: https://dmitra.netlify.app/
-// Problem link: https://codeforces.com/contest/1932/problem/B
-// Time complexity: O(n) per test case
-// Space complexity: O(n) per test case
+// Problem link: https://codeforces.com/contest/1927/problem/B
+// Time complexity: O() per test case
+// Space complexity: O() per test case
  
 #include <bits/stdc++.h>
  
@@ -38,15 +38,8 @@ void Dabananda_Mitra() {
 void solution() {
   int n;
   cin >> n;
-  vi v(n);
-  for (int i = 0; i < n; i++) {
-    cin >> v[i];
-  }
-  int ans = v[0];
-  for (int i = 1; i < n; i++) {
-    ans = ans + (v[i] - ans % v[i]);
-  }
-  cout << ans << nl;
+  vector<int> v;
+  
 }
  
 int main() {
