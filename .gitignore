@@ -12,6 +12,7 @@
 !*.sublime-build
 !*.sublime-snippet
 !compile-and-run-cpp-in-cmd.txt
+!ProblemsSolvedCount.txt
 
 debug.cpp
 test.cpp
