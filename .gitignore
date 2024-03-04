@@ -20,7 +20,7 @@ test.o
 test.exe
 input.txt
 output.txt
-
+AuthInfoAndGit.cpp
 
 # Prerequisites
 *.d
