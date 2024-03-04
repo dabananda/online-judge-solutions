@@ -1,12 +1,40 @@
-// Author: Dabananda Mitra
+/*
+Author: Dabananda Mitra
+Email: imdmitra@gmail.com
+GitHub: https://github.com/dabananda
+LinkedIn: https://www.linkedin.com/in/dabanandamitra/
+Education: Computer Science and Engineering (CSE), Session: 2019-2020, Institute of Science Trade & Technology (ISTT)
+Time & Date: 2024-03-04 15:09:25 (Dhaka, Bangladesh)
+*/
+#include <ctime>
 #include <fstream>
 #include <iostream>
 #include <sstream>
 #include <string>
 
+std::string getCurrentDateTime() {
+  time_t now = time(0);
+  struct tm* localTime = localtime(&now);
+
+  char buffer[80];
+  strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", localTime);
+
+  return buffer;
+}
+
 int main() {
-  std::string fileName;
-  std::string authorInfo = "// Author: Dabananda Mitra\n";
+  std::string fileName;\
+  std::string authorInfo =
+      "/*\n"
+      "Author: Dabananda Mitra\n"
+      "Email: imdmitra@gmail.com\n"
+      "GitHub: https://github.com/dabananda\n"
+      "LinkedIn: https://www.linkedin.com/in/dabanandamitra/\n"
+      "Education: Computer Science and Engineering (CSE), Session: 2019-2020, Institute of Science Trade & Technology (ISTT)\n"
+      "Time & Date: " +
+      getCurrentDateTime() +
+      " (Dhaka, Bangladesh)\n"
+      "*/\n";
 
   // Input file name
   std::cout << "Enter the file name: ";
