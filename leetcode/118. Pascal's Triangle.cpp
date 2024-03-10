@@ -1,14 +1,23 @@
 class Solution {
 public:
-    vector<vector<int>> generate(int numRows) {
-      vector<vector<int>> vec (numRows);
-      for (int i = 0; i < numRows; i++) {
-        vec[i].resize(i + 1);
-        vec[i][0] = vec[i][i] = 1;
-        for (int j = 1; j < i; j++) {
-          vec[i][j] = vec[i - 1][j - 1] + vec[i - 1][j];
+    int nCr(int n, int r) {
+        long long res = 1;
+        for (int i = 0; i < r; i++) {
+            res = res * (n - i);
+            res = res / (i + 1);
         }
-      }
-      return vec;
+        return (int)(res);
+    }
+    vector<vector<int>> generate(int numRows) {
+        int n = numRows;
+        vector<vector<int>> ans;
+        for (int row = 1; row <= n; row++) {
+            vector<int> tempLst;
+            for (int col = 1; col <= row; col++) {
+                tempLst.push_back(nCr(row - 1, col - 1));
+            }
+            ans.push_back(tempLst);
+        }
+        return ans;
     }
 };
