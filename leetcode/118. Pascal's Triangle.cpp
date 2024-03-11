@@ -1,23 +1,33 @@
+/*
+Author: Dabananda Mitra
+Email: imdmitra@gmail.com
+GitHub: https://github.com/dabananda
+LinkedIn: https://www.linkedin.com/in/dabanandamitra/
+Department of Computer Science and Engineering (CSE), Session: 2019-2020, Institute of Science Trade & Technology (ISTT)
+*/
+
+// Problem link: https://leetcode.com/problems/pascals-triangle/
+// Time complexity: O(n^2)
+// Space complexity: O(n)
 class Solution {
-public:
-    int nCr(int n, int r) {
-        long long res = 1;
-        for (int i = 0; i < r; i++) {
-            res = res * (n - i);
-            res = res / (i + 1);
-        }
-        return (int)(res);
+ public:
+  vector<int> getRow(int n) {
+    long long ans = 1;
+    vector<int> row;
+    row.push_back(ans);
+    for (int i = 1; i < n; i++) {
+      ans = ans * (n - i);
+      ans = ans / i;
+      row.push_back(ans);
     }
-    vector<vector<int>> generate(int numRows) {
-        int n = numRows;
-        vector<vector<int>> ans;
-        for (int row = 1; row <= n; row++) {
-            vector<int> tempLst;
-            for (int col = 1; col <= row; col++) {
-                tempLst.push_back(nCr(row - 1, col - 1));
-            }
-            ans.push_back(tempLst);
-        }
-        return ans;
+    return row;
+  }
+
+  vector<vector<int>> generate(int numRows) {
+    vector<vector<int>> ans;
+    for (int i = 1; i <= numRows; i++) {
+      ans.push_back(getRow(i));
     }
+    return ans;
+  }
 };
