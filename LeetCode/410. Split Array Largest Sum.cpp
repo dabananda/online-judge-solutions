@@ -6,7 +6,7 @@ LinkedIn: https://www.linkedin.com/in/dabanandamitra/
 Department of Computer Science and Engineering (CSE), Session: 2019-2020, Institute of Science Trade & Technology (ISTT)
 */
 
-// Problem link: https://leetcode.com/problems/split-array-largest-sum/description/
+// Problem link: https://leetcode.com/problems/split-array-largest-sum/
 // Time complexity: O(N * log(sum(arr[])-max(arr[])+1))
 // Space complexity: O(1)
 
