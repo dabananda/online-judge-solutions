@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-  char ch[1000001];
+  char ch[100001];
   scanf("%s", ch);
   int n = strlen(ch);
   char s[n + 1];
@@ -11,11 +11,11 @@ int main() {
       s[i] = ' ';
     } else if (ch[i] >= 'A' && ch[i] <= 'Z') {
       s[i] = ch[i] + 32;
-    } else {
+    } else if (ch[i] >= 'a' && ch[i] <= 'z') {
       s[i] = ch[i] - 32;
     }
   }
-  s[n + 1] = '\0';
+  s[n] = '\0';
   printf("%s\n", s);
 
   return 0;
