@@ -21,4 +21,4 @@ jobs:
         pip install requests
 
     - name: Update README.md
-      run: python update_readme.py
+      run: python leetcode_update.py
