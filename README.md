@@ -20,7 +20,7 @@ These solutions cover a variety of problem types, including data structures, alg
 I encourage you to explore my solutions, and if you have any questions or suggestions, feel free to connect with me:
 
 - Emai: imdmitra@gmail.com
-- LinkedIn: [Dabananda Mitra](https://www.linkedin.com/in/dabanandamitra/)
+- LinkedIn: [Dabananda Mitra](https://www.linkedin.com/in/dabananda/)
 - Twitter: [@dabanandamitra](https://twitter.com/dabanandamitra)
 - Facebook: [imdmitra](https://www.facebook.com/imdmitra)
 
