@@ -1,5 +1,15 @@
 /*
 Author: Dabananda Mitra
+Email: dabananda.dev@gmail.com
+GitHub: https://github.com/dabananda
+LinkedIn: https://www.linkedin.com/in/dabanandamitra/
+Portfolio: https://dmitra.netlify.app/
+Department of Computer Science and Engineering (CSE), Session: 2019-2020, Institute of Science Trade & Technology (ISTT)
+Time & Date: 2026-02-07 09:34:36 AM (Dhaka, Bangladesh)
+*/
+
+/*
+Author: Dabananda Mitra
 Email: imdmitra@gmail.com
 GitHub: https://github.com/dabananda
 LinkedIn: https://www.linkedin.com/in/dabanandamitra/
@@ -30,9 +40,10 @@ int main() {
   string authorInfo =
       "/*\n"
       "Author: Dabananda Mitra\n"
-      "Email: imdmitra@gmail.com\n"
+      "Email: dabananda.dev@gmail.com\n"
       "GitHub: https://github.com/dabananda\n"
       "LinkedIn: https://www.linkedin.com/in/dabanandamitra/\n"
+      "Portfolio: https://dmitra.netlify.app/\n"
       "Department of Computer Science and Engineering (CSE), Session: 2019-2020, Institute of Science Trade & Technology (ISTT)\n"
       "Time & Date: " +
       getCurrentDateTime() +
